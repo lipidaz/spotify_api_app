@@ -1,0 +1,48 @@
+.controls_container {
+  width: 80%;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.action_btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.action_btn:hover {
+  transform: scale(1.1);
+}
+
+.action_btn.active {
+  background: #273650;
+}
+
+.play_pause_btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  background: #588157;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  box-shadow: inset -5px -5px 2px #3e5a3d, inset 5px 5px 2px #72a871;
+
+  cursor: pointer;
+}
+
+.play_pause_btn:hover {
+  transform: scale(1.1);
+}
+
+.play_pause_btn.active {
+  box-shadow: inset 5px 5px 2px #3e5a3d, inset -5px -5px 2px #72a871;
+}

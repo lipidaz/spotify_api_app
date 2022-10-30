@@ -1,0 +1,19 @@
+.left_player_body {
+  width: 68%;
+  /* margin-right: 2%; */
+  height: 100%;
+  border-radius: 30px;
+  background: linear-gradient(
+    180deg,
+    rgb(40, 58, 88),
+    rgba(54, 69, 98, 0) 100%
+  );
+}
+
+.right_player_body {
+  width: 32%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

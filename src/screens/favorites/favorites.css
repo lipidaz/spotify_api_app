@@ -1,0 +1,67 @@
+.fav_tracks {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  justify-content: flex-start;
+  padding: 3%;
+  width: 100%;
+  height: 100%;
+}
+
+.fav_tracks::-webkit-scrollbar {
+  display: none;
+}
+
+.fav_tracks_card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(30, 42, 62);
+  border: 1px solid rgba(54, 69, 98, 0.18);
+  padding: 1%;
+  margin-bottom: 1%;
+  background: rgb(30, 42, 62);
+  background: linear-gradient(75deg, rgb(40, 58, 88), rgba(54, 69, 98, 0) 100%);
+  transform: all 0.2s ease;
+  cursor: pointer;
+}
+
+.fav_tracks_card:hover {
+  transform: scale(1.03);
+}
+
+.fav_tracks_card:hover .fav_tracks_fade {
+  opacity: 1;
+}
+
+p,
+.fav_tracks_title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #dad7cd;
+}
+
+.fav_tracks_fade {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 1px;
+  width: 100%;
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(54, 69, 98, 0) 80%,
+    rgba(54, 69, 98, 1) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 3%;
+  transition: 0.2s ease;
+}

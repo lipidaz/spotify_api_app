@@ -1,0 +1,33 @@
+.entry_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.entry_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.entry_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.entry_title {
+  font-weight: 700;
+  font-size: 12px;
+  color: whitesmoke;
+  margin: 0px 0px 5px;
+}
+
+.entry_subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  color: whitesmoke;
+  margin: 0;
+}
